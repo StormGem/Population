@@ -36,7 +36,9 @@ public class Population {
         pop.run();
     }
 
-
+    /** sets up the ArrayList with City objects by reading
+      * the txt file
+    */
     public void loadData(){
         while(scan.hasNext()){
             String scanned = scan.next(); // first word of state name
